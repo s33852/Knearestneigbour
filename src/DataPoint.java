@@ -1,9 +1,8 @@
 public class DataPoint {
-    public double[] point;
+    public double[] feature;
     public String label;
-
-    public DataPoint(double[] point, String label) {
-        this.point = point;
+    public DataPoint(double[] feature, String label) {
+        this.feature = feature;
         this.label = label;
     }
 }
